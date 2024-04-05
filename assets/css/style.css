@@ -195,7 +195,7 @@ h2, h4, h5, h6 {color: #fff}
   background: none;
   font-size: 16px;
   padding: 0 20px;
-  background: #24b7a4;
+  background: #3FB7EA;
   color: #fff;
   transition: 0.3s;
   border-radius: 50px;
@@ -203,12 +203,12 @@ h2, h4, h5, h6 {color: #fff}
 }
 
 #header .subscribe .subscribe-form input[type=submit]:hover {
-  background: #22ae9c;
+  background: ##52E4F0;
 }
 
 #header .subscribe .error-message {
   display: none;
-  color: #ed3c0d;
+  color: ##52E4F0;
   text-align: center;
   padding: 15px;
   font-weight: 600;
@@ -216,7 +216,7 @@ h2, h4, h5, h6 {color: #fff}
 
 #header .subscribe .sent-message {
   display: none;
-  color: #18d26e;
+  color: ##52E4F0;
   text-align: center;
   padding: 15px;
   font-weight: 600;
@@ -235,7 +235,7 @@ h2, h4, h5, h6 {color: #fff}
   width: 24px;
   height: 24px;
   margin: 0 10px -6px 0;
-  border: 3px solid #18d26e;
+  border: 3px solid ##52E4F0;
   border-top-color: #eee;
   animation: animate-loading-notify 1s linear infinite;
 }
@@ -273,8 +273,8 @@ h2, h4, h5, h6 {color: #fff}
 }
 
 #header .social-links a:hover {
-  background: #24b7a4;
-  border-color: #24b7a4;
+  background: ##3FB7EA;
+  border-color: #3FB7EA;
 }
 
 /*--------------------------------------------------------------
@@ -649,7 +649,7 @@ section {
   color: #fff;
   line-height: 1;
   padding: 8px 0;
-  border-radius: 50%;
+    border-radius: 50%;
   text-align: center;
   width: 36px;
   height: 36px;
@@ -825,22 +825,18 @@ section {
 }
 
 h1, h3:hover {
-  -webkit-animation: wiggle 0.2s ;
-  /*transition:all ease-out 0.1s;*/
+  -webkit-animation: wiggle 0.5s ;
   text-shadow:30px 13px rgba(246, 0, 153,0.8),
              -38px -4px rgba(15, 210, 255,0.8),
              -2px -4px rgba(255, 210, 0, 1);
 
 }
 
-/* http://www.eeemo.net/ */
-/*
 h1:hover:after {
-  content:':̪̺̠̺͗ͨ̋ͩ͗:̛͇̱̥̥̙̎͆̑ͮ̐͢:̷̲ͮ̃́̅ͦ̔͐̆:̴͈͖̮̪̗̈́̆̀:̨̙̗̺̞̥͗̐ͫ:̗̰̜̟̮̦̉̂';
-  z-index:-100;
+  content:':̷̪̲͗ͨ̋ͩ͗̅ͦ:̈́hack̠̺:̎͆̑̆the̴;͈planet͖:̨̙̗̺̞̥͗̐ͫ:̗̰̜̟̮̦̉̂';
+  z-index:-50;
   position:absolute;
-  left:1em;
-  top:-1em;
+  left:6em;
+  bottom:6em;
   transform:rotate(41deg);
 }
-*/
